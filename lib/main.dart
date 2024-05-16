@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'ui/controllers/simple_controller.dart';
 import 'ui/pages/main_page.dart';
 
 void main() {
+  Get.put(SimpleController());
   runApp(const MyApp());
 }
 

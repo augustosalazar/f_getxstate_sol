@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
+import '../controllers/simple_controller.dart';
 import '../widgets/w1.dart';
 import '../widgets/w2.dart';
 import '../widgets/w3.dart';
